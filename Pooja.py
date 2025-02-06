@@ -73,3 +73,29 @@ plt.ylabel('sin(x)')
 plt.title('Sine Wave')
 
 plt.show()
+#2. Create a scatter plot of random data points.
+
+x = np.random.rand(100)
+
+y = np.random.rand(100)
+
+plt.scatter(x, y)
+
+plt.xlabel('X')plt.ylabel('Y')
+
+plt.title('Scatter Plot')
+
+plt.show()
+
+#3. plot a histogram of normally distributed data.
+
+data = np.random.randn(1000)
+
+plt.hist(data, bins=30)
+
+plt.xlabel('Value')
+
+plt.ylabel('Frequency')
+
+plt.title('Histogram of Normally Distributed Data')
+plt.show()
